@@ -1,2 +1,2 @@
-import MainContainer from "./mainContainer";
+import MainContainer from "./MainContainer";
 export default MainContainer;

@@ -1,20 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes, useFetchers} from "react-router-dom";
+import { Route, Routes, useFetcher } from 'react-router-dom';
 
-// 페이지 추가
-import { Main } from "./pages";
+import { Main, SignUp } from "./pages";
 
 const Router = () => {
     return (
-        <div className="App">
+        <div className="app">
             <Routes>
                 <Route
-                    path={"/main"}
-                    element={<Main/>}
+                    path="/"
+                    element={<Main />}
+                />
+                <Route
+                    path="/signup"
+                    element={<SignUp />}
                 />
             </Routes>
         </div>
     )
 }
 
+/* App/App.js에서 import하기 위한 설정 */
 export default Router;

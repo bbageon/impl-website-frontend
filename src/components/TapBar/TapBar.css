@@ -1,0 +1,25 @@
+.tapber-container{
+    display: flex;
+}
+
+ul.category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid #4e4e4e;
+    padding-bottom: 5px;
+}
+
+.category li{
+    margin: 0 100px;
+}
+
+.category li a{
+    text-decoration: none;
+    color: #4e4e4e;
+}

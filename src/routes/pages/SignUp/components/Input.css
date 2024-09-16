@@ -1,0 +1,21 @@
+.signup-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.signup-input>label {
+    flex: 1;
+}
+
+.signup-input>input {
+    flex: 1;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.signup-input>input:focus {
+    outline: none;
+}

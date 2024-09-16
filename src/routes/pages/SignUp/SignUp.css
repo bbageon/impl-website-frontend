@@ -1,0 +1,29 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: 1rem 0;
+}
+
+.signup-container .signup-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.signup-container .signup-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.signup-container .signup-button {
+    border: 1px solid #555;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
